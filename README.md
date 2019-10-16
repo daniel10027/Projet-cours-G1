@@ -3,28 +3,28 @@
 # Projet 1 : Cours
 
 ## mois
-- id
+- id [PK]
 - nom_mois
 
 ## module
-- id
+- id [PK]
 - nom_module
 - description
 - id_mois [FK]
 
 ## chapitre
-- id
+- id [PK]
 - titre_chapitre
 - id_module [FK]
 
 ## cours
-- id
+- id [PK]
 - titre_cours
 - contenu
 - id_chapitre [FK]
 
 ## user
-- id
+- id [PK]
 - username
 - nom
 - prenom
@@ -39,7 +39,7 @@
 # remarques
 
 ## admin
-- id
+- id [PK]
 - nom
 - prenom
 - email
